@@ -1,5 +1,5 @@
-import { ArrowCircleDown, ArrowCircleUp, CurrencyDollar } from "phosphor-react";
-import * as S from "./styles";
+import { ArrowCircleDown, ArrowCircleUp, CurrencyDollar } from 'phosphor-react'
+import * as S from './styles'
 
 export function Summary() {
   return (
@@ -31,5 +31,5 @@ export function Summary() {
         <strong>R$ 17.400,00</strong>
       </S.SummaryCard>
     </S.SummaryContainer>
-  );
+  )
 }

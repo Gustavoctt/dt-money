@@ -1,7 +1,7 @@
-import * as Dialog from "@radix-ui/react-dialog";
-import { ArrowCircleDown, ArrowCircleUp, X } from "phosphor-react";
+import * as Dialog from '@radix-ui/react-dialog'
+import { ArrowCircleDown, ArrowCircleUp, X } from 'phosphor-react'
 
-import * as Radix from "./styles";
+import * as Radix from './styles'
 
 export function NewTransactionModal() {
   return (
@@ -35,5 +35,5 @@ export function NewTransactionModal() {
         </form>
       </Radix.Content>
     </Dialog.Portal>
-  );
+  )
 }

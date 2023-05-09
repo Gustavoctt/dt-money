@@ -1,7 +1,7 @@
-import { Header } from "../components/Header";
-import { SearchForm } from "../components/SearchForm";
-import { Summary } from "../components/Summary";
-import * as S from "./styles";
+import { Header } from '../components/Header'
+import { SearchForm } from '../components/SearchForm'
+import { Summary } from '../components/Summary'
+import * as S from './styles'
 
 export function Transactions() {
   return (
@@ -36,5 +36,5 @@ export function Transactions() {
         </S.TransactionsTable>
       </S.TransactionsContainer>
     </div>
-  );
+  )
 }
